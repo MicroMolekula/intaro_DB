@@ -1,0 +1,15 @@
+select task_2.tsk_id,
+       task_2.tsk_varchar,
+       task_2.tsk_int,
+       task_2.tsk_bool,
+       task_2.tsk_date,
+       task_2.tsk_enum,
+       task_2.tsk_array,
+       task_2.tsk_xml,
+       task_2.tsk_json,
+       task_2.tsk_profile,
+       task_2.tsk_money,
+       task_2.tsk_byte,
+       task_2.tsk_point,
+       task_2.tsk_bit
+from task_2

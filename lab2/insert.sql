@@ -1,0 +1,3 @@
+insert into task_2 (tsk_id, tsk_varchar, tsk_int, tsk_bool, tsk_date, tsk_enum, tsk_array, tsk_xml, tsk_json, tsk_profile, tsk_money, tsk_byte, tsk_point, tsk_bit)
+values
+    (gen_random_uuid(), 'Varchar64', 52, true, '2003-07-01', 'value1', '{"Moscow, Lipetsk, Tula"}', '<number_task>2</number_task>', '{"name": "Ivan", "age":20}', ('Luke', 'image.jpg', 'My profile'), '$52', '\xDEADBEEF', point(-1, 20), B'11100011');
