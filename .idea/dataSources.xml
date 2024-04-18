@@ -1,18 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="intaro_review_movie@localhost" uuid="08a15861-dc7b-471d-9ea6-758af71b1785">
+    <data-source source="LOCAL" name="intaro_db@localhost" uuid="dc88e323-acb3-4f1e-aeb1-980bd6c6f70e">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://localhost:5432/intaro_review_movie</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
-    </data-source>
-    <data-source source="LOCAL" name="test3_db@localhost" uuid="287d2bbd-45de-4869-b4e0-4f7e30700475">
-      <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://localhost:5433/test3_db</jdbc-url>
+      <jdbc-url>jdbc:postgresql://localhost:5433/intaro_db</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>
