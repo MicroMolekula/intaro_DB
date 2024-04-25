@@ -1,6 +1,6 @@
 SELECT
     new_value "Статус заказа",
-    avg(T.date_difference) "Среднее время статуса"
+    avg(T.date_difference)::decimal(10,2) "Среднее время статуса"
 FROM
 (
     SELECT

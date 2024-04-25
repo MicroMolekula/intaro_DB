@@ -18,6 +18,6 @@ FROM
         ROWS UNBOUNDED PRECEDING
         EXCLUDE CURRENT ROW
     )
-) T
+) 
 WHERE
     total_percent <= 20

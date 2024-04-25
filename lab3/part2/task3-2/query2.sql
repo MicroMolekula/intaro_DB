@@ -1,6 +1,6 @@
 SELECT
     R.customer_id "ID клиента",
-    avg(T.count) "Среднее количество страниц"
+    avg(T.count)::decimal(10,2) "Среднее количество страниц"
 FROM
     customer_visit R
         INNER JOIN
