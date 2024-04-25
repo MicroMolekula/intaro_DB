@@ -1,3 +1,4 @@
 .idea/
 .idea/dataSources.xml
 docker/db-data
+.vscode
