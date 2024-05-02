@@ -2,6 +2,7 @@
 status_id
 0 - Не выполнен
 1 - Выполнен
+3 - Отменен
 */
 
 
@@ -36,8 +37,11 @@ INSERT INTO order_c
     (created_at, customer_id, manager_id, status_id, is_paid, total_sum, utm_source)
 VALUES
     ('2024-04-17 13:01:00', 1, 1, 1, true, 500, 'Google adds'),
-    ('2024-04-16 11:03:00', 2, 3, 0, false, 300, 'VK adds'),
-    ('2024-04-18 12:01:50', 3, 2, 1, false, 200, 'Yandex adds'),
-    ('2024-04-18 09:04:00', 1, 2, 0, false, 450, 'VK adds'),
-    ('2024-04-17 18:05:00', 2, 3, 0, true, 240, 'Google adds'),
-    ('2024-04-18 20:06:00', 3, 1, 1, true, 330, 'Google adds');
+    ('2024-04-16 11:03:00', 2, 3, 3, false, 300, 'VK adds'),
+    ('2024-04-18 12:01:50', 3, 2, 3, false, 200, 'Yandex adds'),
+    ('2024-04-18 09:04:00', 1, 2, 1, false, 450, 'VK adds'),
+    ('2024-04-17 18:05:00', 2, 3, 1, true, 240, 'Google adds'),
+    ('2024-04-18 20:06:00', 3, 1, 3, true, 330, 'Google adds'),
+    ('2024-04-19 12:51:00', 1, 3, 1, true, 600, 'Google adds'),
+    ('2024-04-20 11:22:50', 2, 1, 0, false, 450, 'VK adds'),
+    ('2024-04-21 16:01:50', 3, 2, 1, false, 300, 'Yandex adds');
