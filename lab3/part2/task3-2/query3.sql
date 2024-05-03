@@ -1,3 +1,4 @@
+EXPLAIN --ANALYZE
 SELECT
     CV.customer_id "ID клиента",
     CVP.page "> Среднего визита клиента"
