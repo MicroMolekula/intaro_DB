@@ -1,0 +1,1 @@
+CREATE INDEX hash_index_email ON table4 USING hash(email);

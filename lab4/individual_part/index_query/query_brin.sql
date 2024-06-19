@@ -1,0 +1,4 @@
+EXPLAIN ANALYZE
+SELECT name, age 
+FROM table4
+WHERE age = 71;

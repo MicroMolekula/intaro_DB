@@ -1,0 +1,1 @@
+CREATE INDEX part_age_index ON table4 (age) WHERE age < 50;
